@@ -46,6 +46,9 @@ Certain staff and stores far outperformed others.
 
 ---
 
+## **Challenges Faced**
+
+---
 ## **Tools Used**
 
 | Tool           | Purpose                            |

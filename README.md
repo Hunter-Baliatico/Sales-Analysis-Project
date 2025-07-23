@@ -80,4 +80,4 @@ Certain staff and stores far outperformed others.
 This repository includes cleaned CSV files, SQL Queries, and the Tableau Workbook used in the creation of this project.
 
 
-Project By Hunter Baliatico. Connnect with me on LinkedIn (https://www.linkedin.com/in/hunter-baliatico-a9473823a/)
+Project By Hunter Baliatico. Connect with me on LinkedIn (https://www.linkedin.com/in/hunter-baliatico-a9473823a/)

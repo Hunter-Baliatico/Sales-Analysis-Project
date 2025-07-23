@@ -3,7 +3,7 @@
 Analyzing company sales performance across regions, products, and staff from 2015 to 2018 using SQL, Excel, and Tableau.
 <img width="1692" height="847" alt="Sales Analysis Dashboard" src="https://github.com/user-attachments/assets/cd9b70af-4cd8-4945-8ddf-8ed620d2cdb9" />
 
-**👉 [View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/hunter.baliatico/viz/SalesRevenueOptimizationDashboard/SalesRevenueOptimizationDashboard?publish=yes)**
+** [View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/hunter.baliatico/viz/SalesRevenueOptimizationDashboard/SalesRevenueOptimizationDashboard?publish=yes)**
 
 ---
 

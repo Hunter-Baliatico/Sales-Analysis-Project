@@ -9,7 +9,7 @@ Analyzing company sales performance across regions, products, and staff from 201
 
 ## **North Star Metrics & Dimensions**
 
-- **Sales**: Total sales = Quantity × (List Price − Discount)  
+- **Sales**: Total sales of all bikes in stores
 - **Regions**: CA, NY, TX  
 - **Staff**: Store employees fulfilling orders  
 - **Products**: Revenue performance by product name and category  
@@ -24,7 +24,7 @@ Sales and order value showed strong monthly variation. Peaks suggest seasonality
 → Recommend targeting low-performing months with seasonal promotions.
 
 ### **Product Revenue Distribution**  
-The top 10 products generated a disproportionate share of revenue (Pareto trend).  
+The top 10 products generated a disproportionate share of revenue.  
 → Recommend prioritizing top products for marketing and stocking.
 
 ### **Regional Sales & Customer Reach**  
@@ -35,10 +35,6 @@ NY leads in both revenue and customer count. CA and TX show growth potential.
 Certain staff and stores far outperformed others.  
 → Recommend sharing top-performer strategies across branches.
 
-### **Discount Patterns**  
-Some categories have high average discounts.  
-→ Recommend analyzing discount effectiveness to preserve margins.
-
 ---
 
 ## **Recommendations & Next Steps**
@@ -46,7 +42,6 @@ Some categories have high average discounts.
 - Prioritize high-revenue products for promotions and inventory.
 - Invest in regional growth based on NY performance.
 - Use top employees/stores as models for underperformers.
-- Cut unnecessary discounts where possible.
 - Plan campaigns in low-performing months to even out trends.
 
 ---
@@ -68,6 +63,7 @@ Some categories have high average discounts.
 - Cleaned inconsistent types (e.g., `manager_id`)  
 - Replaced empty cells with `NULL`  
 - Cleaned files: `customers.csv`, `orders.csv`, `staffs.csv`
+- Checked for missing and duplicate values in all data files.
 
 ---
 

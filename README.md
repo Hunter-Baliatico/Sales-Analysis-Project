@@ -48,6 +48,9 @@ Certain staff and stores far outperformed others.
 
 ## **Challenges Faced**
 
+- Getting the cleaned data into sql for data modeling was a challenge due to the differences in data types for different files.The way I overcame this was by custom creating the tables myself and the using the bulk insert query to get the data where it needed to be
+
+
 ---
 ## **Tools Used**
 

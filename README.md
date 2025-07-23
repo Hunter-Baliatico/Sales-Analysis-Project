@@ -80,6 +80,13 @@ Marcelene Boyer (553 orders) and Venita Daniel (540 orders) far outperformed pee
 
 ---
 
+## **Tableau Dashboard Creation**
+
+- Imported the newly queried data through CSV files.
+- Created engaging and meaningful visualizations to show off important business data.
+- Used easily readable charts while also trying to showcase a variety of different visualizations.
+  
+
 ## Project Structure
 This repository includes cleaned CSV files, SQL Queries, and the Tableau Workbook used in the creation of this project.
 

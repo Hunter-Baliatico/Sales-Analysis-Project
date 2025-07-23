@@ -36,6 +36,7 @@ This is a data analytics project focused on sales and operational performance of
 ---
 
 ## Tableau Dashboard
+<img width="1692" height="847" alt="Sales Analysis Dashboard" src="https://github.com/user-attachments/assets/a0e12b31-ef88-44d4-b9b8-6bed51ee1ebf" />
 
 This interactive dashboard displays insights on order value trends, product and regional performance.  
 👉 [View the live dashboard](https://public.tableau.com/app/profile/hunter.baliatico/viz/SalesRevenueOptimizationDashboard/SalesRevenueOptimizationDashboard?publish=yes)

@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is a data analytics project focused on sales and operational performance. I used SQL to process data from multiple CSV files, performed a small amount of data cleaning in Excel, and visualized key business insights in Tableau. The goal was to simulate the type of work I would do in a real-world analyst role and showcase it on my resume and GitHub profile.
+This is a data analytics project focused on sales and operational performance of a bike store looking to increase company employee and sales performance. I used SQL to process data from multiple CSV files, performed a small amount of data cleaning in Excel, and visualized key business insights in Tableau. The goal was to simulate the type of work I would do in a real-world analyst role and showcase it on my resume and GitHub profile.
 
 ## Business Questions Answered
 

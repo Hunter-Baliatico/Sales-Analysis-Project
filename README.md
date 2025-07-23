@@ -1,66 +1,73 @@
-# Sales & Revenue Optimization Dashboard Project
+Sales & Revenue Optimization Dashboard (2015–2018)
+Analyzing company sales performance across regions, products, and staff from 2015 to 2018 using SQL, Excel, and Tableau.
 
-## Project Overview
+View Interactive Tableau Dashboard
 
-This is a data analytics project focused on sales and operational performance of a bike store looking to increase company employee and sales performance. I used SQL to process data from multiple CSV files, performed a small amount of data cleaning in Excel, and visualized key business insights in Tableau. The goal was to simulate the type of work I would do in a real-world analyst role and showcase it on my resume and GitHub profile.
+North Star Metrics & Dimensions
+Sales: Total sales = Quantity × (List Price − Discount)
 
-## Business Questions Answered
+Regions: CA, NY, TX
 
-- **What is our total and average order value by month?**  
-  Helps monitor sales trends and seasonal fluctuations.
+Staff: Store employees fulfilling orders
 
-- **Which products bring in the most revenue?**  
-  Guides inventory and marketing efforts toward top-performing items.
+Products: Revenue performance by product name and category
 
-- **Which regions generate the most sales?**  
-  Informs regional expansion or investment strategies.
+Time: Monthly order trends over 3 years
 
-- **How many customers are we serving in each region?**  
-  Assesses customer reach and geographic performance.
+Summary of Insights
+Sales Trends (2015–2018)
+Sales and order value showed strong monthly variation. Peaks suggest seasonality — especially strong Q4 performance. A consistent upward trend in AOV indicates growing purchase sizes over time.
 
-- **Which stores sell the most units?**  
-  Identifies high-performing locations.
+Product Revenue Distribution
+The top 10 products generated a disproportionate share of revenue (Pareto trend). Focusing on these for promotions and stock planning could optimize margins and efficiency.
 
-- **Which employees process the most orders?**  
-  Useful for performance evaluations and staffing decisions.
+Regional Sales & Customer Reach
+NY clearly leads in total revenue and unique customers, suggesting it’s a mature market. CA and TX could benefit from strategic investment or marketing.
 
----
+Employee & Store-Level Efficiency
+Certain staff members and stores outperformed others significantly. Reviewing best practices from top performers may improve consistency across locations.
 
-## Tools Used
+Discount Patterns
+Some categories had uniformly high discounting — this could be hurting profits. Analyzing discount effectiveness might uncover unnecessary markdowns.
 
-- Microsoft SQL Server  
-- Excel  
-- Tableau Public  
-- GitHub  
+Recommendations & Next Steps
+Double down on high-performing products. Promote and prioritize products that repeatedly top revenue charts.
 
----
+Use NY as a model for strategy in other regions like CA and TX.
 
-## Tableau Dashboard
-<img width="1692" height="847" alt="Sales Analysis Dashboard" src="https://github.com/user-attachments/assets/a0e12b31-ef88-44d4-b9b8-6bed51ee1ebf" />
+Train underperforming staff based on techniques from high-order employees.
 
-This interactive dashboard displays insights on order value trends, product and regional performance.  
-👉 [View the live dashboard](https://public.tableau.com/app/profile/hunter.baliatico/viz/SalesRevenueOptimizationDashboard/SalesRevenueOptimizationDashboard?publish=yes)
+Review heavily discounted categories to reduce unnecessary markdowns.
 
----
+Plan marketing pushes during historically low-performing months.
 
-## Excel Data Cleaning
+Tools Used
+Tool	Purpose
+SQL Server	Data modeling and querying
+Excel	Data cleaning and preparation
+Tableau Public	Dashboard design and visualization
+GitHub	Project hosting and documentation
 
-Before loading the data into SQL Server:
+Excel Adjustments
+Standardized date and numeric formats
 
-- Empty cells were replaced with `NULL` where appropriate.  
-- Some column types were standardized (e.g., `zip_code`, `manager_id`).  
-- Cleaned versions of `customers`, `orders`, and `staffs` files were used.
+Cleaned inconsistent column types (e.g., manager_id)
 
----
+Replaced empty cells with NULL where needed
 
-## SQL Process & Queries
+Cleaned: customers.csv, orders.csv, staffs.csv
 
-- Imported 9 related CSV files and created normalized tables.  
-- Defined primary and foreign keys to establish relationships.  
-- Wrote 8 SQL queries to answer relevant business questions (see above).  
-- Exported query results to CSV for use in Tableau.
+SQL Workflow Summary
+Loaded 9 CSVs including: customers, orders, products, order_items, stores, etc.
 
----
+Created normalized relational schema with primary and foreign keys
+
+Wrote 8 SQL queries to extract data used in dashboard
+
+Used a mix of INNER, LEFT, and RIGHT joins
+
+Exported cleaned datasets for use in Tableau
+
 
 ## Project Structure
 This repository includes cleaned CSV files, SQL Queries, and the Tableau Workbook used in the creation of this project.

@@ -19,39 +19,37 @@ Analyzing company sales performance across regions, products, and staff from 201
 
 ## **Summary of Insights**
 
-### **Sales Trends (2015–2018)**  
-Sales and order value showed strong monthly variation. Peaks suggest seasonality — especially strong Q4 performance.  
-→ Recommend targeting low-performing months with seasonal promotions.
+### **How are sales trending over time?**  
+From 2015 to 2018, total sales increased steadily, peaking at $800,000+ in late 2018. However, average order value fluctuated between ~$1,000 and $2,000.
 
-### **Product Revenue Distribution**  
-The top 10 products generated a disproportionate share of revenue.  
-→ Recommend prioritizing top products for marketing and stocking.
+### **Which products drive the most revenue?**  
+The Trek Slash 8 27.5 - 2016 alone generated $555,558, with the top 2 products totaling nearly $945,000 in revenue.  
 
-### **Regional Sales & Customer Reach**  
-NY leads in both revenue and customer count. CA and TX show growth potential.  
-→ Recommend using NY strategies to boost performance in other states.
+### **What regions are generating the most income?**  
+New York (NY) accounted for $5,215,751, over 68% of total regional sales. California (CA) followed with $1,605,823, and Texas (TX) with $867,542.  
 
-### **Employee & Store-Level Efficiency**  
-Certain staff and stores far outperformed others.  
-→ Recommend sharing top-performer strategies across branches.
+### **Which employees are processing the most orders**  
+Marcelene Boyer (553 orders) and Venita Daniel (540 orders) far outperformed peers. Others processed as few as 86–88 orders.
 
 ---
 
 ## **Recommendations & Next Steps**
 
-- Prioritize high-revenue products for promotions and inventory.
-- Invest in regional growth based on NY performance.
-- Use top employees/stores as models for underperformers.
-- Plan campaigns in low-performing months to even out trends.
+- During months with lower AOV's create product sales for higher value items to help maintain a higher AOV throughout the year.
+- Prioritize stocking and advertising the top performing items with specifically $150,000 in revenue or higher.
+- Expand further into New York as it is by far our biggest market. Communicate with the marketing team to test regional campaigns in California and Texas to find more customers.
+- Use top employees/stores as models for underperformers and create a sales incentive system to reward good performance.
 
 ---
 
 ## **Challenges Faced**
 
 - Getting the cleaned data into sql for data modeling was a challenge due to the differences in data types for different files.The way I overcame this was by custom creating the tables myself and the using the bulk insert query to get the data where it needed to be
-
-
+- There was a lack of focus at the start of where I wanted to go with the data and how to make it important and relevant. The project was refocused upon creating business problems and how the data could solve them, then aligning the SQL queries and Tableau dashboards around the.
+- Some fields had low variance making the analysis less meaningful. This was solved by choosing to omit the data if deemed less important or unnecessary which allowed the visualizations to maintain clarity.
+  
 ---
+
 ## **Tools Used**
 
 | Tool           | Purpose                            |

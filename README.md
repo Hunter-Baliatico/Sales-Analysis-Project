@@ -1,73 +1,84 @@
-Sales & Revenue Optimization Dashboard (2015–2018)
+# Sales & Revenue Optimization Dashboard (2015–2018)
+
 Analyzing company sales performance across regions, products, and staff from 2015 to 2018 using SQL, Excel, and Tableau.
+<img width="1692" height="847" alt="Sales Analysis Dashboard" src="https://github.com/user-attachments/assets/cd9b70af-4cd8-4945-8ddf-8ed620d2cdb9" />
 
-View Interactive Tableau Dashboard
+**👉 [View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/hunter.baliatico/viz/SalesRevenueOptimizationDashboard/SalesRevenueOptimizationDashboard?publish=yes)**
 
-North Star Metrics & Dimensions
-Sales: Total sales = Quantity × (List Price − Discount)
+---
 
-Regions: CA, NY, TX
+## **North Star Metrics & Dimensions**
 
-Staff: Store employees fulfilling orders
+- **Sales**: Total sales = Quantity × (List Price − Discount)  
+- **Regions**: CA, NY, TX  
+- **Staff**: Store employees fulfilling orders  
+- **Products**: Revenue performance by product name and category  
+- **Time**: Monthly order trends over 3 years  
 
-Products: Revenue performance by product name and category
+---
 
-Time: Monthly order trends over 3 years
+## **Summary of Insights**
 
-Summary of Insights
-Sales Trends (2015–2018)
-Sales and order value showed strong monthly variation. Peaks suggest seasonality — especially strong Q4 performance. A consistent upward trend in AOV indicates growing purchase sizes over time.
+### **Sales Trends (2015–2018)**  
+Sales and order value showed strong monthly variation. Peaks suggest seasonality — especially strong Q4 performance.  
+→ Recommend targeting low-performing months with seasonal promotions.
 
-Product Revenue Distribution
-The top 10 products generated a disproportionate share of revenue (Pareto trend). Focusing on these for promotions and stock planning could optimize margins and efficiency.
+### **Product Revenue Distribution**  
+The top 10 products generated a disproportionate share of revenue (Pareto trend).  
+→ Recommend prioritizing top products for marketing and stocking.
 
-Regional Sales & Customer Reach
-NY clearly leads in total revenue and unique customers, suggesting it’s a mature market. CA and TX could benefit from strategic investment or marketing.
+### **Regional Sales & Customer Reach**  
+NY leads in both revenue and customer count. CA and TX show growth potential.  
+→ Recommend using NY strategies to boost performance in other states.
 
-Employee & Store-Level Efficiency
-Certain staff members and stores outperformed others significantly. Reviewing best practices from top performers may improve consistency across locations.
+### **Employee & Store-Level Efficiency**  
+Certain staff and stores far outperformed others.  
+→ Recommend sharing top-performer strategies across branches.
 
-Discount Patterns
-Some categories had uniformly high discounting — this could be hurting profits. Analyzing discount effectiveness might uncover unnecessary markdowns.
+### **Discount Patterns**  
+Some categories have high average discounts.  
+→ Recommend analyzing discount effectiveness to preserve margins.
 
-Recommendations & Next Steps
-Double down on high-performing products. Promote and prioritize products that repeatedly top revenue charts.
+---
 
-Use NY as a model for strategy in other regions like CA and TX.
+## **Recommendations & Next Steps**
 
-Train underperforming staff based on techniques from high-order employees.
+- Prioritize high-revenue products for promotions and inventory.
+- Invest in regional growth based on NY performance.
+- Use top employees/stores as models for underperformers.
+- Cut unnecessary discounts where possible.
+- Plan campaigns in low-performing months to even out trends.
 
-Review heavily discounted categories to reduce unnecessary markdowns.
+---
 
-Plan marketing pushes during historically low-performing months.
+## **Tools Used**
 
-Tools Used
-Tool	Purpose
-SQL Server	Data modeling and querying
-Excel	Data cleaning and preparation
-Tableau Public	Dashboard design and visualization
-GitHub	Project hosting and documentation
+| Tool           | Purpose                            |
+|----------------|------------------------------------|
+| SQL Server     | Data modeling and querying         |
+| Excel          | Data cleaning and preparation      |
+| Tableau Public | Dashboard design and visualization |
+| GitHub         | Project hosting and documentation  |
 
-Excel Adjustments
-Standardized date and numeric formats
+---
 
-Cleaned inconsistent column types (e.g., manager_id)
+## **Excel Adjustments**
 
-Replaced empty cells with NULL where needed
+- Standardized date and numeric formats  
+- Cleaned inconsistent types (e.g., `manager_id`)  
+- Replaced empty cells with `NULL`  
+- Cleaned files: `customers.csv`, `orders.csv`, `staffs.csv`
 
-Cleaned: customers.csv, orders.csv, staffs.csv
+---
 
-SQL Workflow Summary
-Loaded 9 CSVs including: customers, orders, products, order_items, stores, etc.
+## **SQL Workflow Summary**
 
-Created normalized relational schema with primary and foreign keys
+- Loaded 9 CSVs into relational tables
+- Defined primary & foreign keys
+- Wrote 8 queries using various join types (`INNER`, `LEFT`, `RIGHT`)
+- Exported insights to CSV for Tableau integration
 
-Wrote 8 SQL queries to extract data used in dashboard
-
-Used a mix of INNER, LEFT, and RIGHT joins
-
-Exported cleaned datasets for use in Tableau
-
+---
 
 ## Project Structure
 This repository includes cleaned CSV files, SQL Queries, and the Tableau Workbook used in the creation of this project.

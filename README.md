@@ -68,7 +68,7 @@ Marcelene Boyer (553 orders) and Venita Daniel (540 orders) far outperformed pee
 - Replaced empty cells with `NULL`  
 - Cleaned files: `customers.csv`, `orders.csv`, `staffs.csv`
 - Checked for missing and duplicate values in all data files.
-
+The cleaned and raw datasets can be found in the "Data" and "Cleaned Data" folders respectively 
 ---
 
 ## **SQL Workflow Summary**
@@ -77,7 +77,7 @@ Marcelene Boyer (553 orders) and Venita Daniel (540 orders) far outperformed pee
 - Defined primary & foreign keys
 - Wrote 8 queries using various join types (`INNER`, `LEFT`, `RIGHT`) to extract important business metrics
 - Exported insights to CSV for Tableau integration
-
+All SQL Query scripts are in the SQL folder for full review
 ---
 
 ## **Tableau Dashboard Creation**
@@ -85,7 +85,7 @@ Marcelene Boyer (553 orders) and Venita Daniel (540 orders) far outperformed pee
 - Imported the newly queried data through CSV files.
 - Created engaging and meaningful visualizations to show off important business data.
 - Used easily readable charts while also trying to showcase a variety of different visualizations.
-  
+You can view the Interactive Dashboard using the Tableau link at the top of the README or in the "Tableau" Folder
 ---
 
 ## Project Structure

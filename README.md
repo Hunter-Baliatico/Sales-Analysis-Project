@@ -1,6 +1,6 @@
 # Sales & Revenue Optimization Dashboard (2015–2018)
 
-Analyzing company sales performance across regions, products, and staff from 2015 to 2018 using SQL, Excel, and Tableau.
+Analyzing a bike company sales performance across regions, products, and staff from 2015 to 2018 using SQL, Excel, and Tableau.
 <img width="1692" height="847" alt="Sales Analysis Dashboard" src="https://github.com/user-attachments/assets/cd9b70af-4cd8-4945-8ddf-8ed620d2cdb9" />
 
 ** [View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/hunter.baliatico/viz/SalesRevenueOptimizationDashboard/SalesRevenueOptimizationDashboard?publish=yes)**
@@ -75,7 +75,7 @@ Marcelene Boyer (553 orders) and Venita Daniel (540 orders) far outperformed pee
 
 - Loaded 9 CSVs into relational tables
 - Defined primary & foreign keys
-- Wrote 8 queries using various join types (`INNER`, `LEFT`, `RIGHT`)
+- Wrote 8 queries using various join types (`INNER`, `LEFT`, `RIGHT`) to extract important business metrics
 - Exported insights to CSV for Tableau integration
 
 ---

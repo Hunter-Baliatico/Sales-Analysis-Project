@@ -77,7 +77,7 @@ Marcelene Boyer (553 orders) and Venita Daniel (540 orders) far outperformed pee
 - Defined primary & foreign keys
 - Wrote 8 queries using various join types (`INNER`, `LEFT`, `RIGHT`) to extract important business metrics
 - Exported insights to CSV for Tableau integration
-- All SQL Query scripts are in the SQL folder for full review
+- All SQL Query scripts are in the "SQL" folder for full review
 ---
 
 ## **Tableau Dashboard Creation**

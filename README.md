@@ -1,6 +1,6 @@
 # **Sales & Revenue Optimization Report (2015–2018)**
 **Analyzing multi-year retail performance to uncover revenue drivers, regional opportunities, and operational inefficiencies.**
-
+<img width="1686" height="838" alt="Dashboard" src="https://github.com/user-attachments/assets/075ef3e7-592b-4e35-b8ba-7f09bf36c8e1" />
 **Interactive Tableau Dashboard**  
 [View Live Dashboard](https://public.tableau.com/app/profile/hunter.baliatico/viz/SalesRevenueOptimizationDashboard/SalesRevenueOptimizationDashboard?publish=yes)
 

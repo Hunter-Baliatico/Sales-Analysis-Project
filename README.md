@@ -42,19 +42,34 @@ This points to an opportunity to replicate successful employee behaviors, introd
 
 ## Strategic Recommendations
 
-1. **Smooth AOV Trends**  
-   Introduce high-ticket product promotions during lower-revenue months to stabilize average order value and maximize peak periods.
+### **Top Product Performance**
 
-2. **Double Down on Top Products**  
-   Prioritize inventory, ads, and bundles around bestsellers generating $150,000+ annually. Consider phasing out low-performers.
-
-3. **Scale NY, Test Other Markets**  
-   Explore expansion in NY via new store locations or eCommerce. In CA and TX, test localized promotions to uncover demand pockets.
-
-4. **Upskill Through Top Performers**  
-   Use high-performing staff as benchmarks or trainers. Consider an incentive program that rewards consistent order fulfillment and accuracy.
+- **Double Down on Bestsellers**: Allocate more marketing spend and front-page space to high-performing products like the *Trek Slash 8 27.5 - 2016*, which alone generated $555,558. Prioritize them for bundle offers and holiday campaigns.
+- **Refine Inventory Strategy**: Maintain consistent stock levels for top products contributing over $150K annually. Flag items with low sales and high holding costs for reassessment or discontinuation.
+- **Explore Product Variations**: Introduce premium versions or color/feature variants of top sellers to cater to loyal customer segments and drive repeat purchases.
 
 ---
+
+### **Increasing Average Order Value (AOV)**
+
+- **Promote High-Value Bundles**: Create attractive bundles pairing top-selling bikes with accessories (e.g., helmets, tools, apparel) to increase cart size without increasing acquisition cost.
+- **Time-Based Promotions**: Launch targeted promotions during historically low AOV months (e.g., Q1 or early Q3) to maintain profitability year round.
+- **Minimum Threshold Incentives**: Offer perks (free shipping, discount, bonus gift) for orders over a target threshold (e.g., $1,800) to nudge customers toward higher AOV.
+
+---
+
+### **Regional Expansion & Marketing**
+
+- **Invest Further in New York**: With NY driving over 68% of total sales, explore opportunities for expansion through new locations, local events, or influencer partnerships in this market.
+- **Test Campaigns in CA and TX**: California and Texas underperformed significantly. Run A/B tested digital campaigns to identify messaging or product-market fit improvements in these states.
+- **Geo-Targeted Promotions**: Launch region-specific offers that match seasonal buying behavior or local events to boost engagement in lagging markets.
+
+---
+
+### **Staff Productivity & Optimization**
+
+- **Incentivize Top Performance**: Implement a recognition or bonus system modeled on top employees like Marcelene Boyer and Venita Daniel, who each processed 500+ orders.
+- **Create Performance Playbooks**: Have high-performing employees document workflows or customer handling tips to help train lower-performing staff.
 
 ## Technical Workflow & Tools
 
